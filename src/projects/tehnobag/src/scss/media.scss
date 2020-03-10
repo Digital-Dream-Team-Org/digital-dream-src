@@ -1,0 +1,132 @@
+@import "master";
+
+@media (min-width: 1620px) {
+  .hero-section {
+    background-size: cover;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-section {
+    background-size: cover;
+  }
+}
+@media (max-width: 992px) {
+  .main-header {
+    background-color: #0f1323;
+  }
+  .navbar-inner {
+    &__bottom {
+      background: #0f1323;
+    }
+  }
+  .page-title {
+    font-size: 2em;
+  }
+  .section {
+    &-title {
+      font-size: 2em;
+    }
+    &-subtitle {
+      font-size: 1.5em;
+    }
+  }
+  .hero-section {
+    background-image: url(../assets/hero-bg-mobile.png);
+    background-position: center top;
+    background-attachment: fixed;
+  }
+  .specs-section {
+    background-size: cover;
+  }
+  .prices-section {
+    background-position: center -50px;
+  }
+  .contact-form {
+    &__btn {
+      width: 100%;
+    }
+  }
+
+  #scene_1 {
+    .layer-wrapper {
+      display: none;
+    }
+  }
+  .scroll-icon-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .feature {
+    min-height: 9em;
+  }
+  .prices-table {
+    &__btn {
+      width: 100%;
+    }
+  }
+  .individual-order-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .branches-table__content {
+    [class*="col-"] {
+      &:first-child {
+        font-weight: bold;
+        color: $black;
+      }
+    }
+  }
+
+  .individual-order-feature {
+    &__icon {
+      &-wrapper {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .popup-form {
+    .custom-checkbox {
+      label {
+        &::before {
+          top: 0.15rem !important;
+          left: -1.6rem !important;
+          width: 1.25rem !important;
+          height: 1.25rem !important;
+          transform: none;
+        }
+        &::after {
+          top: 0.25rem;
+          transform: scale(1.25) !important;
+        }
+      }
+    }
+  }
+
+  .popup-form {
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__label {
+      font-size: 0.875em;
+    }
+  }
+}
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  .prices-section {
+    border-radius: 0;
+  }
+  .requisite-card {
+    padding: 3em 2em;
+  }
+}

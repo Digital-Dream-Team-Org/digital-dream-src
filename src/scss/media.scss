@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .section-button {
+    padding: 20px 60px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .section-title {
+    font-size: 2em;
+    margin-left: 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .hero-section {
+    height: 640px;
+    &__content {
+      // width: 100%;
+      // max-width: 1024px;
+      padding: 50px 20px;
+    }
+    &__title {
+      font-size: 1.5em;
+    }
+    &__subtitle {
+      font-size: 1rem;
+    }
+  }
+
+  .service-card {
+    &__overlay {
+      top: -28px;
+      height: calc(100% + 28px);
+    }
+  }
+
+  .contact-form {
+    &__col {
+      width: 100%;
+    }
+  }
+
+  .skew-clean-top {
+    padding-top: 12.75rem;
+  }
+  .skew-clean-bottom {
+    padding-bottom: 12.75rem;
+  }
+
+  .section-button {
+    padding: 20px 30px;
+  }
+}
